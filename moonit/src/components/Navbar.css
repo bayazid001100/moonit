@@ -7,12 +7,18 @@
   font-size: 1.2rem;
 }
 
-.navbar-logo img{
+.navbar-logo{
   justify-self: start;
   margin-left: 20px;
-  cursor: pointer;
-  max-width: 20%;
+  
   height: auto ;
+  }
+
+  .navbar-logo img{
+    max-width: 20%;
+    height: auto ;
+    cursor: pointer;
+    justify-self: start;
   }
 
 .fa-firstdraft {
