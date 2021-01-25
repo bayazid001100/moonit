@@ -1,0 +1,9 @@
+.banner-container {
+    padding: 0 !important;
+}
+
+.banner-image {
+    max-height: 40vh;
+    width: 100%;
+    overflow: hidden;
+}
