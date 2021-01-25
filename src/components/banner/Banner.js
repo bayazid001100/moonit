@@ -2,6 +2,9 @@ import React from "react";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
 "mdbreact";
 import './Banner.css';
+import Banner1 from "../../images/Cisco Switch Banner 1-Final.jpeg";
+import Banner2 from "../../images/Cisco Switch Banner 2-Final.jpeg";
+import Banner3 from "../../images/Cisco Switch Banner 3-Final.png";
 
 
 const Banner = () => {
@@ -19,7 +22,7 @@ const Banner = () => {
             <MDBView>
               <img
                 className="banner-image"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                src={Banner1}
                 alt="First slide"
               />
             </MDBView>
@@ -28,7 +31,7 @@ const Banner = () => {
             <MDBView>
               <img
                 className="banner-image"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                src={Banner2}
                 alt="Second slide"
               />
             </MDBView>
@@ -37,7 +40,7 @@ const Banner = () => {
             <MDBView>
               <img
                 className="banner-image"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                src={Banner3}
                 alt="Third slide"
               />
             </MDBView>

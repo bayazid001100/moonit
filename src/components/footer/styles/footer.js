@@ -36,13 +36,13 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: #fff;
+  color: #fff !important;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
 
   &:hover {
-      color: #ff9c00;
+      color: #ff9c00 !important;
       transition: 200ms ease-in;
   }
 `;

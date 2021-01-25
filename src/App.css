@@ -32,14 +32,131 @@
   }
   
   .home {
-    background-image: url('./images/img-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
+  .Slider{
+    color: #323232;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .slider1{
+    text-align: center;
+    font-weight: bold;
+    color: #FBAF40;
+  }
+
+  .msg{
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+    color: #555;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .msg1{
+    text-align: center;
+    font-weight: bold;
+  }
   
+  .p-top-40 {
+    padding-top: 40px;
+  }
+
+  .pb-20 {
+    padding-bottom: 20px;
+  }
+
+  .column--flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.column--flex-center, .column--flex-end {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.column {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.button--blue {
+  color: #188dab;
+  border: 2px solid #188dab;
+}
+
+.button--clear {
+  height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  min-width: 140px;
+  font-size: 13px;
+  padding: 0 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #188dab;
+  color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: none;
+  white-space: nowrap;
+  background: transparent;
+  border: 2px solid #188dab;
+}
+.button {
+  height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  min-width: 140px;
+  font-size: 13px;
+  padding: 0 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #188dab;
+  color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: none;
+  white-space: nowrap;
+}
+a {
+  color: #065f5f;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
   .about_us {
     background-image: url('./images/img-2.jpg');
     background-position: center;
