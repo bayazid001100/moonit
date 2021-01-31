@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView } from
 "mdbreact";
 import './Banner.css';
 import Banner1 from "../../images/Cisco Switch Banner 1-Final.jpeg";

@@ -23,14 +23,14 @@ export default function Slider() {
     <>
       <div className="slider">
         <Carousel breakPoints={breakPoints}>
-          <Item><img src={slider1} /></Item>
-          <Item><img src={slider2} /></Item>
-          <Item><img src={slider3} /></Item>
-          <Item><img src={slider4} /></Item>
-          <Item><img src={slider5} /></Item>
-          <Item><img src={slider6} /></Item>
-          <Item><img src={slider7} /></Item>
-          <Item><img src={slider8} /></Item>
+          <Item><img src={slider1} alt= "slider"/></Item>
+          <Item><img src={slider2} alt= "slider"/></Item>
+          <Item><img src={slider3} alt= "slider"/></Item>
+          <Item><img src={slider4} alt= "slider"/></Item>
+          <Item><img src={slider5} alt= "slider"/></Item>
+          <Item><img src={slider6} alt= "slider"/></Item>
+          <Item><img src={slider7} alt= "slider"/></Item>
+          <Item><img src={slider8} alt= "slider"/></Item>
         </Carousel>
       </div>
     </>
