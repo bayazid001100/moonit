@@ -22,6 +22,8 @@ import CatvProducts from './components/pages/CatvProducts';
 import ServerRackCabinet from './components/pages/ServerRackCabinet';
 import Accessories from './components/pages/Accessories';
 
+
+import Mikrotik from './product page/network router/Mikrotik';
 function Nav() {
     return (
       <div>
@@ -48,6 +50,8 @@ function Nav() {
           <Route path='/catv-products' component={CatvProducts} />
           <Route path='/server-rack-cabinet' component={ServerRackCabinet} />
           <Route path='/accessories' component={Accessories} />
+
+          <Route path='/mikrotik' component={Mikrotik} />
         </Switch>
       </Router>
       </div>
