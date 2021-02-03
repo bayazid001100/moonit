@@ -13,7 +13,7 @@ export default function Career() {
           color: "#fba93d",
         }}
       >
-        No Vacancy
+        No Vacancy Right Now
       </p>
     </div>
   );
