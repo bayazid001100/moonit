@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Deployment() {
-    return (
-        <div>
-            <h1>Deployment</h1>
-        </div>
-    )
+  return (
+    <div style={{ height: "620px", textAlign: "center" }}>
+      <h1>Deployment</h1>
+    </div>
+  );
 }

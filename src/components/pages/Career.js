@@ -1,10 +1,20 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import "../../App.css";
 
 export default function Career() {
   return (
-    <>
-      <h1 className='career'>Career</h1>
-    </>
+    <div style={{ height: "620px" }}>
+      <br />
+      <p
+        style={{
+          fontFamily: "Georgia, serif",
+          textAlign: "center",
+          fontSize: "50px",
+          color: "#fba93d",
+        }}
+      >
+        No Vacancy
+      </p>
+    </div>
   );
 }

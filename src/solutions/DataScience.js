@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function DataScience() {
-    return (
-        <div>
-            <h1>Data Science</h1>
-        </div>
-    )
+  return (
+    <div style={{ height: "620px", textAlign: "center" }}>
+      <h1>Data Science</h1>
+    </div>
+  );
 }

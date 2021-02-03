@@ -1,96 +1,103 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home,
-  .about_us,
-  .products,
-  .solutions,
-  .training,
-  .career,
-  .contact,
-  .network_router,
-  .network_switch,
-  .fttx,
-  .wireless_networking,
-  .wireless_router,
-  .networking_cables,
-  .fiber_optic_networking_accessories,
-  .lan_networking_accessories,
-  .network_testing_equipment,
-  .catv_products,
-  .server_rack_Cabinet,
-  .accessories{
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
-  .home {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  .Slider{
-    color: #323232;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  .slider1{
-    text-align: center;
-    font-weight: bold;
-    color: #FBAF40;
-  }
-
-  .msg{
-    font-size: 18px;
-    line-height: 1.67;
-    text-align: center;
-    color: #555;
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    margin-top: 20px;
-  }
-
-  .msg1{
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .p-top-40 {
-    padding-top: 40px;
-  }
-
-  .pb-20 {
-    padding-bottom: 20px;
-  }
-
-  .column--flex-center {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
 }
-.column--flex-center, .column--flex-end {
-    -js-display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+
+.home,
+.about_us,
+.products,
+.solutions,
+.training,
+.career,
+.contact,
+.network_router,
+.network_switch,
+.fttx,
+.wireless_networking,
+.wireless_router,
+.networking_cables,
+.fiber_optic_networking_accessories,
+.lan_networking_accessories,
+.network_testing_equipment,
+.catv_products,
+.server_rack_Cabinet,
+.accessories {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.Slider {
+  color: #323232;
+  text-transform: uppercase;
+  text-align: center;
+}
+.slider1 {
+  text-align: center;
+  font-weight: bold;
+  color: #fbaf40;
+}
+
+.msg {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #555;
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.msg1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.msg2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.p-top-40 {
+  padding-top: 40px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.column--flex-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.column--flex-center,
+.column--flex-end {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .column {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .button--blue {
@@ -117,8 +124,8 @@
   text-transform: uppercase;
   background: #188dab;
   color: #fff;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   border: none;
   white-space: nowrap;
   background: transparent;
@@ -143,178 +150,178 @@
   text-transform: uppercase;
   background: #188dab;
   color: #fff;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   border: none;
   white-space: nowrap;
 }
 a {
   color: #065f5f;
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 a {
   background-color: transparent;
   text-decoration: none;
 }
-  .about_us {
-    background-image: url('./images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .products {
-    background-image: url('./images/img-3.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .solutions {
-    background-image: url('./images/img-4.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .training {
-    background-image: url('./images/img-7.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .career {
-    background-image: url('./images/img-6.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .contact {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .network_router {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.about_us {
+  background-image: url("./images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .network_switch {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.products {
+  background-image: url("./images/img-3.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .fttx {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.solutions {
+  background-image: url("./images/img-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .wireless_networking {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.training {
+  background-image: url("./images/img-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .wireless_router {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.career {
+  background-image: url("./images/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .networking_cables {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.contact {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .fiber_optic_networking_accessories {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.network_router {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .lan_networking_accessories {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.network_switch {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .network_testing_equipment {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.fttx {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .catv_products {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.wireless_networking {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .server_rack_Cabinet {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.wireless_router {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
-  .accessories {
-    background-image: url('./images/img-5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.networking_cables {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.fiber_optic_networking_accessories {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.lan_networking_accessories {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.network_testing_equipment {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.catv_products {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.server_rack_Cabinet {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.accessories {
+  background-image: url("./images/img-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}

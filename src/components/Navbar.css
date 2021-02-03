@@ -8,19 +8,19 @@
   font-size: 1.2rem;
 }
 
-.navbar-logo{
+.navbar-logo {
   justify-self: start;
   margin-left: 20px;
-  
-  height: auto ;
-  }
 
-  .navbar-logo img{
-    height: auto ;
-    cursor: pointer;
-    justify-self: start;
-    zoom: 80%;
-  }
+  height: auto;
+}
+
+.navbar-logo img {
+  height: auto;
+  cursor: pointer;
+  justify-self: start;
+  zoom: 80%;
+}
 
 .fa-firstdraft {
   margin-left: 0.5rem;
@@ -51,7 +51,7 @@
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: #fba93d;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
