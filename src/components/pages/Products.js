@@ -15,7 +15,7 @@ const CardExample = () => {
           textDecorationColor: '#FFA500',
           // fontSize: '350%',
           fontSize: '50px',
-        }}>Products</h1>
+        }}>MoonIT Products</h1>
       <br />
 
       <MDBRow style={{

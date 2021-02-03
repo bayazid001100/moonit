@@ -6,8 +6,9 @@ import Info from '../Info';
 import React, {useState} from 'react';
 
 const images = [
-  "https://i.pcmag.com/imagery/roundups/0219OyNj03yO1QpqFfgSnWj-1..1594138567.jpg",
-  "https://www.startech.com.bd/image/cache/catalog/networking/router/asus/ax1800/ax56u-01-500x500.jpg"
+    "https://i.imgur.com/0FkiVbl.jpg",
+  "https://i.imgur.com/EAGhPoY.jpg",
+  "https://i.imgur.com/0FkiVbl.jpg"
 ]
 
 const product = {
@@ -39,6 +40,7 @@ function Mikrotik() {
           <Info {...product} />
         </Grid>
       </Grid>
+      <br/>
     </>
   );
 }

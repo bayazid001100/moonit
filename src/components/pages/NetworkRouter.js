@@ -31,11 +31,12 @@ export default function NetworkRouter() {
           <MDBView cascade>
             <MDBCardImage
               hover
-              zoom="20%"
+              zoom="30%"
               overlay='white-slight'
               className='card-img-top'
               src={MikroTik}
               alt='MikroTik'
+              style={{padding:'20px'}}
             />
           </MDBView>
 
